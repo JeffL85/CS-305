@@ -1,0 +1,32 @@
+## 1. Briefly summarize your client, Artemis Financial, and its software requirements.    
+Artemis Financial is a financial services firm that needed to modernize and secure its Spring Boot application. They requested a full vulnerability assessment and remediation of outdated or insecure software components.
+
+## 2. What did you do well when you found your client’s software security vulnerabilities?  
+I effectively identified outdated and vulnerable dependencies using OWASP tools and Maven. I replaced them with secure, supported versions to reduce exposure without breaking the application.
+
+## 3. Why is it important to code securely?  
+Secure coding helps prevent data breaches, protects client trust, and reduces the risk of legal or compliance issues. It ensures the application remains resilient against common attacks such as injection or remote exploits.
+
+## 4. What value does software security add to a company’s overall well-being?  
+Good software security strengthens a company’s reputation and builds customer confidence. It also reduces downtime, future rework, and costs related to incident response or audits.
+
+## 5. Which part of the vulnerability assessment was challenging or helpful to you?  
+The most challenging part was dealing with false positives in automated vulnerability reports. However, this pushed me to better understand which risks were real and which ones were not applicable.
+
+## 6. How did you increase layers of security?  
+I enabled HTTPS, removed risky legacy components, and migrated to Spring Boot 3.2.5, which offers improved security defaults. These actions added protection across both the transport layer and internal software components.
+
+## 7. In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?  
+I would continue using tools like OWASP Dependency-Check and refer to CVSS scores to prioritize vulnerabilities. I’d also apply industry-standard guidelines like NIST and OWASP Top 10 to select mitigation strategies.
+
+## 8. How did you make certain the code and software application were functional and secure?  
+I ran complete Maven build cycles, reviewed logs for security warnings, and tested endpoints to ensure functionality remained intact. I also verified that no new vulnerabilities were introduced post-refactor using dependency scanning.
+
+## 9. After refactoring the code, how did you check to see whether you introduced new vulnerabilities?  
+I performed a second OWASP Dependency-Check scan and confirmed that all critical and high-risk vulnerabilities were resolved. I also checked the application manually to ensure no unintended behavior or insecure configurations were added.
+
+## 10. What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?  
+I used Spring Boot, Maven, OWASP Dependency-Check, and version management techniques that will be valuable for any future secure development work. I also followed best practices for upgrading dependencies and verifying compatibility.
+
+## 11. Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience.    
+This project showcases my ability to refactor legacy code into a secure, maintainable, and production-ready state. It demonstrates practical knowledge in vulnerability remediation, dependency management, and secure web application development.
